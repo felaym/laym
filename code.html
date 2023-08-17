@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="cart.png">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="timer-container">
+            <label><h3>Please complete your purchase within:</h3></label>
+            <div class="timer">
+                <span id="minutes">00</span>:<span id="seconds">00</span>
+            </div>
+        </div>
+        <h1>Your cart:</h1>
+        <h3>Item List</h3>
+        <ul id="itemList">
+            <li>Item 1: QuantumX Pro Virtual Reality System</li>
+            <li>Item 2: LunaGlow Smart Sleep Mask</li>
+            <li>Item 3: AeroCharge Wireless Charging Pad</li>
+            <li>Item 4: SolsticeTech Solar-Powered Backpack</li>
+            <li>Item 5: NebulaShift Gaming Mouse</li>
+        </ul>
+        <label for="btn-1">Is this all that you wanted to add to your cart?</label>
+        <input name="btn-1" type="checkbox" id="confirmationButton"><br><br>
+        <button type="submit" id="sumbitConfirmation">Confirm</button><br><br>
+        <label id="redirectingButton"></label><br><br>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+

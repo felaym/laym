@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: papayawhip;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: wheat;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: rgb(204, 177, 126);
+}
+
+#sumbitConfirmation {
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+}
+
+#sumbitConfirmation:hover {
+    background-color: rgb(152, 86, 0);
+}
+
+
+.timer-container {
+    text-align: center;
+}
+
+.timer {
+    font-size: 48px;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
